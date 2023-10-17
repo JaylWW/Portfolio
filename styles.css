@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+
+.image{
+    background-image: url("image1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 100vh;
+    
+}
+
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+ 
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  h1{
+    color: whitesmoke;
+    font-size: xxx-large;
+  }
+
+.name{
+    padding: 180px 120px 120px 20px;
+    color: whitesmoke;
+}
+
+@media screen and (min-width: 600px) {
+    .name{
+        padding: 180px 120px 120px 180px;
+        color: whitesmoke;
+    }
+}
+
+.about-me{
+    padding: 20px 0;
+}
+
+.section-top{
+    background-color: rgb(33, 43, 37);
+    text-align: left;
+    padding: 50px 20px;
+}
+
+.section-top h2{
+    color: whitesmoke;
+    font-size: xxx-large;
+    padding: 10px;
+}
+
+
+.section-top p{
+    color: whitesmoke;
+    padding-left: 10px;
+}
+
+/* @media screen and (min-width: 600px) {
+    .section-top{
+        padding: 10px 10px 10px 20px;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+.section-mid{
+    background-color: rgb(33, 43, 37);
+    color: whitesmoke;
+}
+
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(33, 43, 37);
+}
+
+.pros{
+    font-size: xx-large;
+    color: white;
+}
+
+.projects div{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(33, 43, 37);
+    padding-top: 100px;
+}
+
+.html-btn{
+    background-color: #f06529;
+    height: 30px;
+    width: 150px;
+    border-radius: 8px;
+ }
+
+
+.css-btn{
+    background-color: #2965f1;
+    height: 30px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.javascript-btn{
+    background-color: #f0db4f;
+    height: 30px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.react-btn{
+    background-color: #61DBFB;
+    height: 30px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+@media screen and (min-width: 600px) {
+    .projects div{
+        width: 24%;
+    }
+}
+
+img{
+    width: 175px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-me{
+    background-color: rgb(33, 38, 35);
+    font-size: xxx-large;
+    color: whitesmoke;display: flex;
+    display: flex;
+    justify-content: space-evenly;
+}
+.socials{
+    background-color: rgb(33, 38, 35);
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
+#facebook{
+    color: #4267B2;
+}
+#instagram{
+        background: #f09433; 
+      background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+      background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+      background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+        }
+
+#linkedin{
+    color: #0A66C2;0A66C2
+}
+
+#twitter{
+    color: #1DA1F2;
+}
+
+#email{
+    color: #BB001B;
+}
+
+.details{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding-top: 40px;
+    background-color: rgb(33, 38, 35);
+    height: 0 auto;
+    color: whitesmoke;
+    padding-bottom: 20px;
+    font-size: x-large;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.lists{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    background-color: rgb(33, 38, 35);
+    color: whitesmoke;
+    padding-top: 30px;
+}
+
+.copyright{
+    background-color: rgb(33, 38, 35);
+    padding-top: 50px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 15px;
+}
+
+hr{
+margin-left: 80px;
+margin-right: 80px;
+margin-top: 20px;
+}
