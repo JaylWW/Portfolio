@@ -7,18 +7,23 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
-<body>
+</head>
+    <body>
 
-    <div class="bg-img">
+        
+
+    <div id="#top" class="bg-img">
         <div class="container">
           <div class="topnav">
             <a href="home"><i class="fa fa-fw fa-building"></i>Home</a>
-            <a href="about me"><i class="fa fa-fw fa-user"></i>About Me</a>
+            <a href="about me" id="myBtn-aboutme"><i class="fa fa-fw fa-user"></i>About Me</a>
             <a href="portfolio"><i class="fa fa-fw fa-file"></i>Portfolio</a>
-            <a href="contact"><i class="fa fa-fw fa-user"></i>Contact</a>
+            <a href="contact" id="myBtn-contactme"><i class="fa fa-fw fa-user"></i>Contact</a>
           </div>
         </div>
       </div>
+
+
 
 <main>
 <div class="image">
@@ -30,10 +35,11 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ut eveniet explicabo eius laborum ipsa sit laudantium! Consequuntur vel eligendi provident</p>
             <br>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos neque totam amet tenetur</p>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. voluptas!</p>
         </div>
     </div>
 </div>
-
 
 
 
@@ -43,7 +49,9 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt et ab est sapiente modi quod rerum aut similique, dolores deserunt, ipsum iusto numquam nostrum recusandae repellat non minus ut porro!</p>
             <br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia repudiandae eligendi eius modi pariatur. Ratione deleniti error corporis nihil unde quasi ullam porro dicta qui earum provident, tempore, excepturi praesentium.</p>
-</div>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quasi eos! Dolore nihil dignissimos magnam, natus quas dolorem repudiandae et iste veritatis repellendus, aspernatur enim corporis excepturi ab accusamus quia.</p>
+        </div>
         </section>
 
 
@@ -53,12 +61,13 @@
 
 
 
-<section class="projects">
+<section class="projects" id="projects">
 
     <div class="pros">
         <img src="images/html image.jpg" alt="html image">
         <br>
         <button class="html-btn"><a href="#">HTML Projects</a></button>
+
     </div>
     <div class="pros">
         <img src="images/css images.jpg" alt="css image">
@@ -98,56 +107,83 @@
     <h3>Contact Me</h3>
     </div>
     <div class="socials">
-        <a href="facebook"><i class="fa fa-fw fa-facebook" id="facebook"></i></a>
-            <a href="instagram"><i class="fa fa-fw fa-instagram" id="instagram"></i></a>
-        <a href="linkedin"><i class="fa fa-fw fa-linkedin" id="linkedin"></i></a>
-    <a href="twitter"><i class="fa fa-fw fa-twitter" id="twitter"></i></a>
-    <a href="email"><i class="fa fa-fw fa-envelope" id="email"></i></a>
+        <a href="https://en-gb.facebook.com/" target="_blank"><i class="fa fa-fw fa-facebook" id="facebook"></i></a>
+        <a href="https://www.instagram.com/"target="_blank"><i class="fa fa-fw fa-instagram" id="instagram"></i></a>
+        <a href="https://uk.linkedin.com/" target="_blank"><i class="fa fa-fw fa-linkedin" id="linkedin"></i></a>
+        <a href="https://uk.twitter/" target="_blank"><i class="fa fa-fw fa-twitter" id="twitter"></i></a>
 </div>
+
+<div class="footer-socials">
+    <ul class="fb">Facebook</ul>
+    <ul class="ins">Instagram</ul>
+    <ul class="linked">Linkedin</ul>
+    <ul class="twitt">Twitter</ul>
 </div>
-<div class="details">
-        <h4>Products</h4>
-        <h4>Services</h4>
-        <h4>Company</h4>
-        <h4>Tools</h4>
-        <h4>Work</h4>
+
+<div class="bot">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis illum vel perspiciatis autem ipsa incidunt tenetur. Maxime, natus repellat esse quisquam amet quis soluta veniam deleniti temporibus, debitis iure aspernatur.</p>
+<br>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore neque cum, mollitia dolores asperiores quasi omnis itaque iusto eos ipsa, veritatis consectetur tempore? Totam consequatur animi, eius ut illum nobis!</p>
 </div>
-<div clas="footer-container">
-<div class="lists">
-    <li>Website Developer</li>
-    <li>Website Developer</li>
-    <li>Website Developer</li>
-    <li>Website Developer</li>
-    <li>Website Developer</li>
-</div>
-<div class="lists">
-    <li>Website Developer</li>
-    <li>Website Developer</li>
-    <li>Website Developer</li>
-    <li>Website Developer</li>
-    <li>Website Developer</li>
-</div>
-<div class="lists">
-    <li>Website Developer</li>
-    <li>Website Developer</li>
-    <li>Website Developer</li>
-    <li>Website Developer</li>
-    <li>Website Developer</li>
-</div>
-<div class="lists">
-    <li>Website Developer</li>
-    <li>Website Developer</li>
-    <li>Website Developer</li>
-    <li>Website Developer</li>
-    <li>Website Developer</li>
-</div>
-</div>
+
+
 
 <div class="copyright">
     <hr>
     <p>&copy Jay Woolcott-White Website 2023</p>
 </div>
 </footer>
+
+
+<div id="myBtn-about-me" class="about-me-modal">
+    <div class="modal-content-about-me">
+        <span class="close-about-me">&times;</span>
+        <p class="aboutmemodal">About Me</p>
+        <p class="mam">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quaerat architecto repellendus voluptatibus maiores assumenda cupiditate rerum optio nostrum! Accusamus eveniet culpa aut voluptatum velit, nisi deserunt labore non cupiditate!</p>
+        <br>
+        <p class="mam">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus natus delectus ratione voluptate illo quaerat est, libero vel quod voluptatum! Incidunt aut aliquid nobis adipisci officia in iste ea ut.</p>
+        <br>
+        <p class="mam">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus distinctio blanditiis officia fuga porro itaque beatae voluptate ea ab, nobis modi nisi, assumenda similique quam a aliquid quasi molestias consectetur.</p>
+        <br>
+        <p class="mam">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet corrupti accusantium dolor accusamus beatae mollitia, consequatur voluptas labore perspiciatis, nulla quisquam sunt maiores officia laudantium, reprehenderit omnis repellendus id? Culpa.</p>
+    </div>
+
+</div>
+
+
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Contact Form</p>
+    <form>
+    <label for="fname">First Name</label>
+    <br>
+    <input class="form" type="text" id="fname" name="firstname" placeholder="Your First name..">
+        <br>
+        <br>
+    <label for="lname">Last Name</label>
+    <br>
+    <input  class="form" type="text" id="lname" name="lastname" placeholder="Your Last name..">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <br>
+    <input  class="form" type="text" id="email" name="email" placeholder="Enter your email">
+        <br>
+        <br>
+    <label for="phone-number">Phone Number</label>
+    <br>
+    <input class="form" type="number" id="phone-number" name="phone-number" placeholder="07777777777">
+        <br>
+        <br>
+    <label for="subject">How can I help?</label>
+        <br>
+    <textarea class="form" id="subject" name="subject" placeholder="How can I help?"></textarea>
+    <br>
+    <button class="contact-me-submit">Submit</button>
+</form>
+  </div>
 
 
 

@@ -1,0 +1,48 @@
+[
+    {
+        "name": "HTML",
+        "Description": "Link to my HTML Projects I have made since starting the IO Acadamy Course",
+        "image": "images/html image.jpg"
+    }, 
+
+    {
+        "name": "CSS",
+        "Description": "Link to my CSS Projects I have made since starting the IO Acadamy Course",
+        "image": "images/css images.jpg"
+    }, 
+
+    {  
+        "name": "JAVASCRIPT",
+        "Description": "Link to my JAVASCRIPT Projects I have made since starting the IO Acadamy Course",
+        "image": "images/javascript.jpg"
+    },
+
+    {  
+        "name": "REACT",
+        "Description": "Link to my REACT Projects I have made since starting the IO Acadamy Course",
+        "image": "/images/React.jpg"
+    },
+
+    {  
+        "name": "JAVASCRIPT",
+        "Description": "Link to my JAVASCRIPT Projects I have made since starting the IO Acadamy Course",
+        "image": "images/javascript.jpg"
+    },
+
+    {
+        "name": "HTML",
+        "Description": "Link to my HTML Projects I have made since starting the IO Acadamy Course",
+        "image": "images/html image.jpg"
+    },
+
+    {  
+        "name": "REACT",
+        "Description": "Link to my REACT Projects I have made since starting the IO Acadamy Course",
+        "image": "/images/React.jpg"
+    },
+    {
+        "name": "CSS",
+        "Description": "Link to my CSS Projects I have made since starting the IO Acadamy Course",
+        "image": "images/css images.jpg"
+    }
+]
